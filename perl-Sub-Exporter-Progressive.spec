@@ -8,13 +8,13 @@
 Summary:	Sub::Exporter::Progressive - Only use Sub::Exporter if you need it
 Summary(pl.UTF-8):	Sub::Exporter::Progressive - użycie Sub::Exporter tylko w razie potrzeby
 Name:		perl-Sub-Exporter-Progressive
-Version:	0.001010
+Version:	0.001011
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sub/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0350d9e12549112ae1f618cbff3ecbd9
+# Source0-md5:	bb50b3ba1538902b197c04818a84230a
 URL:		http://search.cpan.org/dist/Sub-Exporter-Progressive/
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.88
