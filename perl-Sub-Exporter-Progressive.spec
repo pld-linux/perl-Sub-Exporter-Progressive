@@ -4,7 +4,6 @@
 #
 %define		pdir	Sub
 %define		pnam	Exporter-Progressive
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sub::Exporter::Progressive - Only use Sub::Exporter if you need it
 Summary(pl.UTF-8):	Sub::Exporter::Progressive - użycie Sub::Exporter tylko w razie potrzeby
 Name:		perl-Sub-Exporter-Progressive
