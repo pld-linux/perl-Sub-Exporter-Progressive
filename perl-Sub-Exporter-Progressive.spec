@@ -14,12 +14,13 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sub/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	72cf6acdd2a0a8b105821a4db98e4ebe
-URL:		http://search.cpan.org/dist/Sub-Exporter-Progressive/
+URL:		https://metacpan.org/release/Sub-Exporter-Progressive
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.88
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
