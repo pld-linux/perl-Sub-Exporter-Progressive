@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Sub
 %define		pnam	Exporter-Progressive
@@ -12,9 +12,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Sub/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Sub/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	72cf6acdd2a0a8b105821a4db98e4ebe
-URL:		https://metacpan.org/release/Sub-Exporter-Progressive
+URL:		https://metacpan.org/dist/Sub-Exporter-Progressive
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.88
 %endif
