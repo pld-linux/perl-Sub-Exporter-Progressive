@@ -8,7 +8,7 @@ Summary:	Sub::Exporter::Progressive - Only use Sub::Exporter if you need it
 Summary(pl.UTF-8):	Sub::Exporter::Progressive - użycie Sub::Exporter tylko w razie potrzeby
 Name:		perl-Sub-Exporter-Progressive
 Version:	0.001013
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
